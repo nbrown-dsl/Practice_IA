@@ -2,7 +2,15 @@
 {%block title %}Thanks for Submitting{% endblock %}
 
 {% block content%}
-      <div class="container">
-          <h1>Thank you for Subscribing {{ first_name }}</h1>
+      <div class="container" >
+          <h1>Thank you for Subscribing! </h1>
+          <br></div>
+
+          <ul>
+          {% for subscriber in subscribers %}
+            <li>{{ subscriber }}</li>
+        {% endfor %}
+            </ul>
+
       </div>
 {% endblock%}

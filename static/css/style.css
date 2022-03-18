@@ -1,0 +1,43 @@
+h1{
+    color: #161616;
+    font-size: 96px;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+p{
+    color: #9f4c49;
+    background-color: #919bf0;
+}
+
+
+.container{
+    border: 3px solid #161616;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.nav-pills>li.active>a:hover{color:#919bf0;background-color:#9f4c49}
+.nav-pills>li>a{border-radius:0px}
+
+.nav-pills{
+    border-radius: 0;
+    border: #9f4c49;
+}
+
+.navbar{
+    border: #9f4c49;
+}
+
+img{
+    border: #9f4c49;
+    border-width: 2px;
+}
+
